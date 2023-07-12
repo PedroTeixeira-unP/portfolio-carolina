@@ -1,6 +1,6 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: [
-    '@/assets/custom.css'
+    '@/assets/css/custom.css'
   ],
 })

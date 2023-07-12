@@ -1,23 +1,22 @@
 <template>
     <div class="page">
-        <Header/>
-        <div class="content">
-            <div class="left"></div>
-            <div class="right">
-                <div class="square"> 
-                     <div class="row-center">
-                        <img src="/img/carolina.jpg" alt="Carolina Araújo" />
-                     </div>
-                     <div class="row-center">
-                     <h1>Carolina Araujo</h1>
-                     </div>
-                     <div class="row-center">
-                     <div class="line"></div>
-                     </div>
-                     <div class="row-center">
-                     <p>ALGUMA COISA</p>
-                     </div>
-                </div>
+        <div class="left">
+            <div class="square"> 
+                    <div class="row-center">
+                    <img src="/img/carolina-profile.jpg" alt="Carolina Araújo" />
+                    </div>
+                    <div class="row-center">
+                    <span>Carolina Araujo</span>
+                    </div>
+                    <div class="row-center">
+                    <p>VIDEO | FOTOGRAFIA | DESIGN</p>
+                    </div>
+            </div>
+        </div>
+        <div class="right">
+            <Header/>
+            <div class="content">
+                <span>Olá! Sê muito bem-vind@!<br/><br/>É um prazer receber-te aqui e partilhar contigo um pouco do meu trabalho e experiência. Este espaço fornece-te uma visão geral das minhas habilidades, comepetências e conquistas que adquiri ao longo dos anos.</span>
             </div>
         </div>
     </div>
@@ -25,49 +24,58 @@
 <style scoped>
 .page {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     height: 100vh; /* Set the container to full viewport height */
 }
-.content {
-    flex: 1; /* Allow the content to grow and fill the remaining height */
-    display: flex;
-    width: 100%;
-}
 .left {
-    width: 40%;
-    background-color: bisque;
+    width: 50%;
+    height: 100%;
 }
 .right {
-    width: 60%;
-    /* background-color: red; */
-    padding: 10% 0;
+    width: 50%;
+    height: 100%;
+}
+.content {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    height: calc(90% - 3rem);
+    color: white;
+    line-height: 2;
+    font-size: 1.5rem;
 }
 .square {
-    transform: translateX(-50%);
-    background-color: rgb(250, 238, 222);
-    width:30%;
-    height:70%;
+    color: white;
+    width:calc(100% - 14rem);
+    height:calc(100% - 22rem);
     display: grid;
     grid-template-columns: auto;
-    gap: 10px;
+    gap: 0;
     justify-content: center;
-    padding: 3rem;
-    box-shadow:
+    margin: 11rem 7rem;
+    /* box-shadow:
         0 2.8px 2.2px rgba(0, 0, 0, 0.034),
         0 6.7px 5.3px rgba(0, 0, 0, 0.048),
         0 12.5px 10px rgba(0, 0, 0, 0.06),
         0 22.3px 17.9px rgba(0, 0, 0, 0.072),
         0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-        0 100px 80px rgba(0, 0, 0, 0.12);
+        0 100px 80px rgba(0, 0, 0, 0.12); */
 }
 .row-center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.row-center > span {
+    font-size: 2.5rem;
+}
+.row-center > p {
+    font-size: 1.2rem;
+}
 img {
-    width: 10rem;
-    height: 10rem;
+    width: 20rem;
+    height: 20rem;
+    border: solid 10px white;
     border-radius: 50%;
     object-fit: cover;
 }
