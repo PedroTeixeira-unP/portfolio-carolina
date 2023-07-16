@@ -3,13 +3,13 @@
         <div class="left">
             <div class="square"> 
                     <div class="row-center">
-                    <img src="/img/carolina-profile.jpg" alt="Carolina Araújo" />
+                        <img src="/img/carolina-profile.jpg" alt="Carolina Araújo" />
                     </div>
                     <div class="row-center">
-                    <span>Carolina Araujo</span>
+                        <span>Carolina Araujo</span>
                     </div>
                     <div class="row-center">
-                    <p>VIDEO | FOTOGRAFIA | DESIGN</p>
+                    <p>VIDEO | FOTOGRAFIA | DESIGN | SOCIAL MEDIA</p>
                     </div>
             </div>
         </div>
@@ -20,6 +20,7 @@
             </div>
         </div>
     </div>
+    <Footer/>
 </template>  
 <style scoped>
 .page {
@@ -43,6 +44,7 @@
     color: white;
     line-height: 2;
     font-size: 1.5rem;
+    font-family: "ChampagneLimousines";
 }
 .square {
     color: white;
@@ -67,10 +69,12 @@
     align-items: center;
 }
 .row-center > span {
-    font-size: 2.5rem;
+    font-size: 4rem;
+    font-family: "Abuget";
 }
 .row-center > p {
     font-size: 1.2rem;
+    font-family: ChampagneLimousinesBold;
 }
 img {
     width: 20rem;

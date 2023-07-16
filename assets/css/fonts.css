@@ -1,0 +1,17 @@
+@font-face {
+font-family: "Abuget";
+src: url('../fonts/Abuget.ttf') format("truetype");
+}
+
+@font-face {
+font-family: "ChampagneLimousines";
+src: url('../fonts/Champagne_&_Limousines.ttf') format("truetype");
+}
+
+@font-face {
+font-family: "ChampagneLimousinesBold";
+src: url('../fonts/Champagne_&_Limousines_Bold.ttf') format("truetype");
+}
+
+
+

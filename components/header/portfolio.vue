@@ -1,12 +1,46 @@
 <template>
     <div class="header">
-        <NuxtLink to="/" class="custom-link">All</NuxtLink>
-        <NuxtLink to="/portfolio" class="custom-link">Video</NuxtLink>
-        <NuxtLink to="/contactos" class="custom-link">Fotografia</NuxtLink>
+      <div v-for="item in header" :key="item.value">
+        <button
+          @click="setFilter(item.value)"
+          class="custom-link"
+          :class="{ 'active-link': item.value === current }"
+        >
+          {{ item.name }}
+        </button>
+      </div>
     </div>
-</template>
-<style scoped>
-.header {
+  </template>
+  <script>
+  export default {
+    data() {
+      return {
+        header: [
+          { name: "All", value: "*" },
+          { name: "Video", value: "video" },
+          { name: "Fotografia", value: "fotografia" },
+          { name: "Design", value: "design" },
+          { name: "Social Media", value:"social-media"}
+        ]
+      };
+    },
+    props: {
+      current: {
+        type: String,
+        required: true
+      }
+    },
+    methods: {
+      setFilter(value) {
+        console.log("teste");
+        this.$emit("filter", value);
+      }
+    }
+  };
+  </script>
+  
+  <style scoped>
+  .header {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,13 +51,21 @@
     font-size: 1.2rem;
     padding: 2.5rem 0;
     gap: 3rem;
-}
-.custom-link {
-  text-decoration: none; /* Remove the underline */
-  color: rgba(87,94,96,255);
-}
-.active-link {
-    color: red;
-}
-
-</style>
+  }
+  
+  .custom-link {
+    text-decoration: none; /* Remove the underline */
+    color: rgba(87, 94, 96, 255);
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: ChampagneLimousinesBold;
+  }
+  
+  .active-link {
+    color: rgb(253, 253, 253);
+    font-family: ChampagneLimousinesBold;
+  }
+  </style>
+  

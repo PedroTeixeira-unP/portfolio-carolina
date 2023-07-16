@@ -1,8 +1,8 @@
 <template>
     <div class="header">
-        <NuxtLink to="/" class="custom-link" download>CURRICULUM VITAE</NuxtLink>
+        <a href="/docs/CV_CAROLINA.pdf" class="custom-link" download>CURRICULUM VITAE</a>
         <NuxtLink to="/portfolio" class="custom-link">PORTFOLIO</NuxtLink>
-        <NuxtLink to="/contactos" class="custom-link">CONTACTOS</NuxtLink>
+        <!-- <NuxtLink to="/contactos" class="custom-link">CONTACTOS</NuxtLink> -->
     </div>
 </template>
 <style scoped>
@@ -16,6 +16,9 @@
     font-size: 1.5rem;
     padding: 2.5rem 0;
     gap: 3rem;
+    /* justify-content: right; */
+    width: 75%;
+    font-family: ChampagneLimousinesBold;
 }
 .custom-link {
   text-decoration: none; /* Remove the underline */

@@ -1,59 +1,144 @@
 {
     "portfolio": [
         {
-            "title": "Projeto ",
-            "image": "project.png",
-            "description": "descrição do projeto "
+            "title": "O CHOCALHO DO DIABO",
+            "image": "projetos/CDD_LOGO_PRETO.png",
+            "description": "Projeto de Dissertação",
+            "year": "2023",
+            "type": ["video", "social-media"],
+            "facebook": "https://www.facebook.com/chocalhododiabo",
+            "instagram": "https://www.facebook.com/chocalhododiabo",
+            "youtube": null
         },
         {
-            "title": "Projeto ",
-            "image": "project.png",
-            "description": "descrição do projeto "
+            "title": "Ride Fotográfico Entrudo de Lazarim",
+            "image": "projetos/4R0A9525.jpg",
+            "description": "descrição do projeto",
+            "year": "2023",
+            "type": ["fotografia"],
+            "facebook": null,
+            "instagram": null,
+            "youtube": null
         },
         {
-            "title": "Projeto ",
-            "image": "project.png",
-            "description": "descrição do projeto "
+            "title": "Higibel - Beauty and Clothes",
+            "image": "projetos/Higibel.jpg",
+            "description": "Vídeo Promocional - Beauty",
+            "year": "2023",
+            "type": ["video"],
+            "facebook": null,
+            "instagram": null,
+            "youtube": null
         },
         {
-            "title": "Projeto ",
-            "image": "project.png",
-            "description": "descrição do projeto "
+            "title": "Higibel - Beauty and Clothes",
+            "image": "projetos/Higibel_promo.jpg",
+            "description": "Vídeo Promocional - Clothes",
+            "year": "2023",
+            "type": ["video"],
+            "facebook": null,
+            "instagram": null,
+            "youtube": null
         },
         {
-            "title": "Projeto ",
-            "image": "project.png",
-            "description": "descrição do projeto "
+            "title": "EPTUS",
+            "image": "projetos/EPTUS.jpeg",
+            "description": "Gestão Social Media",
+            "year": "2023",
+            "type": ["social-media"],
+            "facebook": null,
+            "instagram": null,
+            "youtube": null
         },
         {
-            "title": "Projeto ",
-            "image": "project.png",
-            "description": "descrição do projeto "
+            "title": "Escola do Rodo",
+            "image": "projetos/epdr_rodo.jpeg",
+            "description": "Gestão Social Media",
+            "year": "2023",
+            "type": ["social-media"],
+            "facebook": null,
+            "instagram": null,
+            "youtube": null
         },
         {
-            "title": "Projeto ",
-            "image": "project.png",
-            "description": "descrição do projeto "
+            "title": "Pela Pátria",
+            "image": "projetos/pela_patria.jpg",
+            "description": "Projeto Académico",
+            "year": "2022",
+            "type": ["design", "video"],
+            "facebook": null,
+            "instagram": "https://instagram.com/pelapatriapt?igshid=OGIzYTJhMTRmYQ==",
+            "youtube": "https://www.youtube.com/@pelapatriapt"
         },
         {
-            "title": "Projeto ",
-            "image": "project.png",
-            "description": "descrição do projeto "
+            "title": "Louvor",
+            "image": "projetos/AZEITE_LOUVOR_1L.jpg",
+            "description": "Label Design",
+            "year": "2021",
+            "type": ["design"],
+            "facebook": null,
+            "instagram": null,
+            "youtube": null
         },
         {
-            "title": "Projeto ",
-            "image": "project.png",
-            "description": "descrição do projeto "
+            "title": "Projeto Académico",
+            "image": "projetos/BLACK_LOGO_FEELSMOOTH(UTAD).jpg",
+            "description": "Logomarca",
+            "year": "2021",
+            "type": ["design"],
+            "facebook": null,
+            "instagram": null,
+            "youtube": null
         },
         {
-            "title": "Projeto ",
-            "image": "project.png",
-            "description": "descrição do projeto "
+            "title": "Caminho de Torres",
+            "image": "projetos/438ddcee-56e7-4a03-8c73-f6400a32bd10.jpg",
+            "description": "Social Media",
+            "year": "2021",
+            "type": ["social-media"],
+            "facebook": "https://www.facebook.com/caminhodetorres",
+            "instagram": "https://instagram.com/caminhodetorres?igshid=OGIzYTJhMTRmYQ==",
+            "youtube": null
         },
         {
-            "title": "Projeto ",
-            "image": "project.png",
-            "description": "descrição do projeto "
+            "title": "Bordallo",
+            "image": "projetos/LOGO_BORDALLOS_629_-5.jpg",
+            "description": "Label Design",
+            "year": "2021",
+            "type": ["design"],
+            "facebook": null,
+            "instagram": null,
+            "youtube": null
+        },
+        {
+            "title": "Cooperativa Beira Serra",
+            "image": "projetos/Cooperativa-Beira-Serra.jpeg",
+            "description": "Gestão Social Media",
+            "year": "2021",
+            "type": ["social-media"],
+            "facebook": "https://www.facebook.com/beiraserravinhos",
+            "instagram": null,
+            "youtube": null
+        },
+        {
+            "title": "QuelStudio",
+            "image": "projetos/design_int.jpg",
+            "description": "Logomarca",
+            "year": "2020",
+            "type": ["design"],
+            "facebook": null,
+            "instagram": null,
+            "youtube": null
+        },
+        {
+            "title": "Projeto académico",
+            "image": "projetos/IMG3_editada.jpg",
+            "description": "fotografia",
+            "year": "2020",
+            "type": ["fotografia"],
+            "facebook": null,
+            "instagram": null,
+            "youtube": null
         }
     ]
 }
