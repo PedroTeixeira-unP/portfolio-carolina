@@ -8,17 +8,44 @@
             "type": ["video", "social-media"],
             "facebook": "https://www.facebook.com/chocalhododiabo",
             "instagram": "https://www.facebook.com/chocalhododiabo",
-            "youtube": null
-        },
+            "youtube": null,
+            "slider" : []
+            },
         {
             "title": "Ride Fotográfico Entrudo de Lazarim",
             "image": "projetos/4R0A9525.jpg",
-            "description": "descrição do projeto",
+            "description": "fotografia",
             "year": "2023",
             "type": ["fotografia"],
             "facebook": null,
             "instagram": null,
-            "youtube": null
+            "youtube": null,
+            "slider" : [
+                {
+                  "src": "projetos/slider/caretos/4R0A9415.jpg",
+                  "alt": "Image 1"
+                },
+                {
+                    "src": "projetos/slider/caretos/4R0A9458.jpg",
+                    "alt": "Image 2"
+                },
+                {
+                    "src": "projetos/slider/caretos/4R0A9475.jpg",
+                    "alt": "Image 3"
+                },
+                {
+                    "src": "projetos/slider/caretos/4R0A9525.jpg",
+                    "alt": "Image 4"
+                },
+                {
+                    "src": "projetos/slider/caretos/4R0A9527.jpg",
+                    "alt": "Image 5"
+                },
+                {
+                    "src": "projetos/slider/caretos/4R0A9573.jpg",
+                    "alt": "Image 6"
+                }
+                ]
         },
         {
             "title": "Higibel - Beauty and Clothes",
@@ -28,7 +55,8 @@
             "type": ["video"],
             "facebook": null,
             "instagram": null,
-            "youtube": null
+            "youtube": "https://youtu.be/4Pd7Hpo0F4k",
+            "slider" : []
         },
         {
             "title": "Higibel - Beauty and Clothes",
@@ -38,7 +66,8 @@
             "type": ["video"],
             "facebook": null,
             "instagram": null,
-            "youtube": null
+            "youtube": "https://youtu.be/9G7OWMdX6rY",
+            "slider" : []
         },
         {
             "title": "EPTUS",
@@ -46,9 +75,10 @@
             "description": "Gestão Social Media",
             "year": "2023",
             "type": ["social-media"],
-            "facebook": null,
-            "instagram": null,
-            "youtube": null
+            "facebook": "https://www.facebook.com/eptusdouro",
+            "instagram": "https://instagram.com/eptusdouro?igshid=OGIzYTJhMTRmYQ==",
+            "youtube": null,
+            "slider" : []
         },
         {
             "title": "Escola do Rodo",
@@ -56,9 +86,10 @@
             "description": "Gestão Social Media",
             "year": "2023",
             "type": ["social-media"],
-            "facebook": null,
-            "instagram": null,
-            "youtube": null
+            "facebook": "https://www.facebook.com/EscolaProfissionalRodo",
+            "instagram": "https://instagram.com/escolaprofissionalrodo?igshid=OGIzYTJhMTRmYQ==",
+            "youtube": null,
+            "slider" : []
         },
         {
             "title": "Pela Pátria",
@@ -68,7 +99,8 @@
             "type": ["design", "video"],
             "facebook": null,
             "instagram": "https://instagram.com/pelapatriapt?igshid=OGIzYTJhMTRmYQ==",
-            "youtube": "https://www.youtube.com/@pelapatriapt"
+            "youtube": "https://www.youtube.com/@pelapatriapt",
+            "slider" : []
         },
         {
             "title": "Louvor",
@@ -78,7 +110,17 @@
             "type": ["design"],
             "facebook": null,
             "instagram": null,
-            "youtube": null
+            "youtube": null,
+            "slider" : [
+                {
+                    "src": "projetos/slider/louvor/AZEITE_LOUVOR_1L.jpg",
+                    "alt": "Image 1"
+                },
+                {
+                    "src": "projetos/slider/louvor/SUPORTE_LOUVOR_MEL_PORMENOR.png",
+                    "alt": "Image 1"
+                }
+            ]
         },
         {
             "title": "Projeto Académico",
@@ -88,7 +130,8 @@
             "type": ["design"],
             "facebook": null,
             "instagram": null,
-            "youtube": null
+            "youtube": null,
+            "slider" : []
         },
         {
             "title": "Caminho de Torres",
@@ -98,7 +141,8 @@
             "type": ["social-media"],
             "facebook": "https://www.facebook.com/caminhodetorres",
             "instagram": "https://instagram.com/caminhodetorres?igshid=OGIzYTJhMTRmYQ==",
-            "youtube": null
+            "youtube": null,
+            "slider" : []
         },
         {
             "title": "Bordallo",
@@ -108,7 +152,8 @@
             "type": ["design"],
             "facebook": null,
             "instagram": null,
-            "youtube": null
+            "youtube": null,
+            "slider" : []
         },
         {
             "title": "Cooperativa Beira Serra",
@@ -118,7 +163,8 @@
             "type": ["social-media"],
             "facebook": "https://www.facebook.com/beiraserravinhos",
             "instagram": null,
-            "youtube": null
+            "youtube": null,
+            "slider" : []
         },
         {
             "title": "QuelStudio",
@@ -128,7 +174,8 @@
             "type": ["design"],
             "facebook": null,
             "instagram": null,
-            "youtube": null
+            "youtube": null,
+            "slider" : []
         },
         {
             "title": "Projeto académico",
@@ -138,7 +185,33 @@
             "type": ["fotografia"],
             "facebook": null,
             "instagram": null,
-            "youtube": null
+            "youtube": null,
+            "slider" : [
+                {
+                    "src": "projetos/slider/proj_academico/IMG1_editada.jpg",
+                    "alt": "Image 1"
+                },
+                {
+                    "src": "projetos/slider/proj_academico/IMG2_editada.jpg",
+                    "alt": "Image 1"
+                },
+                {
+                    "src": "projetos/slider/proj_academico/IMG3_editada.jpg",
+                    "alt": "Image 1"
+                },
+                {
+                    "src": "projetos/slider/proj_academico/IMG5_editada.jpg",
+                    "alt": "Image 1"
+                },
+                {
+                    "src": "projetos/slider/proj_academico/IMG6_editada.jpg",
+                    "alt": "Image 1"
+                },
+                {
+                    "src": "projetos/slider/proj_academico/IMG7_editada.jpg",
+                    "alt": "Image 1"
+                }
+            ]
         }
     ]
 }

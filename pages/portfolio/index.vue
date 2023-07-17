@@ -4,7 +4,7 @@
         <div class="grid-item" v-for="(item, index) in filteredOrders">
             <img :src="'/img/'+item.image" />
             <div class="overlay">
-                <div class="hover">
+                <div class="hover" @click="item.slider.length ? setSlider(item) : null">
                     <div>
                         <div class="text">
                         {{item.title}}<br/>
@@ -39,6 +39,7 @@
             </div>
         </div>
     </div>
+    <slider v-if="slider" :images="sliderImages" @close="closeSlider"/>
     <Footer/>
 </template>
 <script>
@@ -47,7 +48,9 @@ export default {
     data(){
         return{
             portfolio: data.portfolio,
-            filter: '*'
+            filter: '*',
+            sliderImages:  [],
+            slider: 0
         }
     },
     computed: {
@@ -63,6 +66,17 @@ export default {
         setFilter(n) {
             console.log(n)
             this.filter = n; // Update the filter value
+        },
+        setSlider(item) {
+            this.sliderImages = item.slider;
+            this.slider = 1;
+            document.body.style.overflow = 'hidden';
+        },
+        closeSlider() {
+            console.log('closing')
+            this.sliderImages = [];
+            this.slider = 0;
+            document.body.style.overflow = '';
         }
     }
 }
