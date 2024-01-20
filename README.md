@@ -1,63 +1,15 @@
-# Nuxt 3 Minimal Starter
+## Tecnologies:
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+- [Nuxt](https://nuxt.com/).
 
-## Setup
+## Project
 
-Make sure to install the dependencies:
+This Project was a porfolio for a collegue, [Carolina Araujo](https://www.linkedin.com/in/carolina-ara%C3%BAjo-276862203/).
 
-```bash
-# npm
-npm install
+This project involved creating a portfolio for my colleague, Carolina Araujo. 
 
-# pnpm
-pnpm install
+It begins with an introduction to Carolina, featuring a personal message, and offers options to view her CV and social media profiles. 
 
-# yarn
-yarn install
-```
+The portfolio then showcases her work, organized with a straightforward filtering system based on type. 
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+This format effectively highlights Carolina's skills and accomplishments
