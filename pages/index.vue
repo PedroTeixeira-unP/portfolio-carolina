@@ -6,10 +6,10 @@
                         <img src="/img/carolina-profile.jpg" alt="Carolina Araújo" />
                     </div>
                     <div class="row-center">
-                        <span>Carolina Araujo</span>
+                        <span>Carolina Araújo</span>
                     </div>
                     <div class="row-center">
-                    <p>VIDEO | FOTOGRAFIA | DESIGN | SOCIAL MEDIA</p>
+                    <p>VÍDEO | FOTOGRAFIA | DESIGN | SOCIAL MEDIA</p>
                     </div>
             </div>
         </div>

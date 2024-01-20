@@ -1,7 +1,7 @@
 <template>
     <div class="header">
         <a href="/docs/CV_CAROLINA.pdf" class="custom-link" download>CURRICULUM VITAE</a>
-        <NuxtLink to="/portfolio" class="custom-link">PORTFOLIO</NuxtLink>
+        <NuxtLink to="/portfolio" class="custom-link">PORTFÓLIO</NuxtLink>
         <!-- <NuxtLink to="/contactos" class="custom-link">CONTACTOS</NuxtLink> -->
     </div>
 </template>
